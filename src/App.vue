@@ -1,28 +1,30 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <layout-main>
+      <router-view />
+    </layout-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import layoutMain from "@/components/layout/main.vue"
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    layoutMain
   }
 }
 </script>
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;500;800&display=swap');
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+$font-family:'Ubuntu';
+
+  .v-application {
+   font-family: 'Montserrat Alternates', sans-serif !important;
+    .title { // To pin point specific classes of some components
+       font-family: 'Montserrat Alternates', sans-serif !important;
+    }
+ }
 </style>
