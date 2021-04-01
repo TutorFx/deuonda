@@ -6,7 +6,7 @@
             <v-img max-width="100%" contain left class="pr-10" src="@/assets/&text.svg" />
           </v-col>
           <v-col cols="12" xs="12" sm="12" md="6" xl="4" class="">
-            <h2 class="white--text text-center mb-5" v-resize-text="{ratio:1.27}">FAÇA PARTE DA ONDA!</h2>
+            <h2 class="white--text text-center mb-5" v-resize-text="{ratio:1.27}">FAÇA PARTE DA ONDA! </h2>
             <v-form class="mb-10">
               <v-text-field
                 dark
@@ -33,7 +33,7 @@
                 <div class="mb-3"><em>Siga o nosso instagram:</em></div>
                 <v-row align="center">
                   <v-col cols="2"><v-img width="40px" height="40px" contain src="@/assets/logotipo-do-instagram.svg" /></v-col>
-                  <v-col><h2 v-resize-text="{ratio:0.8}" style="font-weight: 300;">@deuonda</h2></v-col>
+                  <v-col><h2 v-resize-text="{ratio:1.2}" style="font-weight: 300;">@deuondadigital</h2></v-col>
                 </v-row>
               </v-col>
               <v-col>
