@@ -6,7 +6,7 @@
             <v-img max-width="100%" contain left class="pr-10" src="@/assets/&text.svg" />
           </v-col>
           <v-col cols="12" xs="12" sm="12" md="6" xl="4" class="">
-            <h2 class="white--text text-center mb-5" v-resize-text="{ratio:1.27}">FAÇA PARTE DA ONDA! </h2>
+            <h2 class="white--text text-center mb-5" v-resize-text="{ratio:1.27}">FAÇA PARTE DA ONDA!</h2>
             <v-form class="mb-10">
               <v-text-field
                 dark
