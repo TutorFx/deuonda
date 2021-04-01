@@ -33,7 +33,7 @@
                 <div class="mb-3"><em>Siga o nosso instagram:</em></div>
                 <v-row align="center">
                   <v-col cols="2"><v-img width="40px" height="40px" contain src="@/assets/logotipo-do-instagram.svg" /></v-col>
-                  <v-col><h2 v-resize-text="{ratio:0.8}" style="font-weight: 300;">@deuonda</h2></v-col>
+                  <v-col><h2 v-resize-text="{ratio:1.2}" style="font-weight: 300;">@deuondadigital</h2></v-col>
                 </v-row>
               </v-col>
               <v-col>
